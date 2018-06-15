@@ -1,0 +1,13 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <br>
+        <a href="<%= url("/processes") %>" class="btn btn-primary">back to processes</a>
+        <br>
+        <% @output.each do |line| %>
+            <p><%= line %></p>
+        <% end %>
+    </body>
+</html>
